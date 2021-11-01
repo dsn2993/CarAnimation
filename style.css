@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.background{
+    background-image: url('./images/background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.btn{
+    background-color: black;
+    font-size: 40px;
+    position: relative;
+    top: 10vh;
+    left: 45%;
+    border-radius: 20px;
+    margin:5px;
+}
+#btn1{
+    color: green;
+}
+#btn2{
+    color: red;
+}
+.road{
+    background-image:url('./images/road.jpg') ;
+    height: 30vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: absolute;
+    top: 70vh;
+}
+.car{
+    background-size: cover;
+}
+img{
+    /* width:500px; */
+    width:300px;
+    position: relative;
+    bottom: 10vh; 
+}
+
